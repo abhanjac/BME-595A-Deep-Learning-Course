@@ -30,6 +30,36 @@ Not(True):			 False 	;	Not(False):			 True
 
 Xor(True, True):	 False 	;	Xor(False, True):	 True 	;	Xor(True, False):	 True 	;	Xor(False, False):	 False
 
+#### Theta comparisons between homework 2 and homework 3:
+And gate Theta 1
+Hw2             Hw2
+-25.3251        -200
+ 17.2339         100
+ 17.4892         100
+
+Or gate Theta 1
+Hw2             Hw2
+ -5.9833        -100
+ 13.2808         200
+ 12.6420         200
+
+Not gate Theta 1
+Hw2             Hw2
+  6.0337         100
+-12.4738        -200
+
+Xor gate Theta 1
+Hw2                     Hw2
+ -4.1688 -11.1120       -100 -100
+  8.8897   7.2943       -200  200
+  8.8911   7.2946        200 -200
+
+Xor gate Theta 1
+Hw2             Hw2
+ -9.5047        -100
+ 19.7033         200
+-20.3830         200
+
 #### Comments and Observations:
 * Typically **100** iterations with a learning rate of **eta = 10** is sufficient for training the **And**, **Or** and **Not** gates since they do not have any hidden layers. But the **Xor** gate object takes a long time to train comparatively.
 It takes about **30000** iterations to train it.
