@@ -32,33 +32,52 @@ Xor(True, True):	 False 	;	Xor(False, True):	 True 	;	Xor(True, False):	 True 	;
 
 #### Theta comparisons between homework 2 and homework 3:
 And gate Theta 1
-Hw2             Hw2
--25.3251        -200
- 17.2339         100
- 17.4892         100
+- Hw2            
+- -25.3251       
+-  17.2339       
+-  17.4892
+- Hw3
+- -200
+- 100
+- 100
 
 Or gate Theta 1
-Hw2             Hw2
- -5.9833        -100
- 13.2808         200
- 12.6420         200
+- Hw2            
+- -5.9833       
+- 13.2808       
+- 12.6420       
+- Hw3
+- -100
+- 200
+- 200
 
 Not gate Theta 1
-Hw2             Hw2
-  6.0337         100
--12.4738        -200
+- Hw2
+-  6.0337      
+- -12.4738     
+- Hw3
+- 100
+- -200
 
 Xor gate Theta 1
-Hw2                     Hw2
- -4.1688 -11.1120       -100 -100
-  8.8897   7.2943       -200  200
-  8.8911   7.2946        200 -200
+- Hw2                   
+- -4.1688, -11.1120     
+-  8.8897,   7.2943     
+-  8.8911,   7.2946     
+- Hw3
+- -100, -100
+- -200, 200
+- 200, -200
 
 Xor gate Theta 1
-Hw2             Hw2
- -9.5047        -100
- 19.7033         200
--20.3830         200
+- Hw2             
+- -9.5047       
+- 19.7033       
+- -20.3830      
+- Hw3
+- -100
+- 200
+- 200
 
 #### Comments and Observations:
 * Typically **100** iterations with a learning rate of **eta = 10** is sufficient for training the **And**, **Or** and **Not** gates since they do not have any hidden layers. But the **Xor** gate object takes a long time to train comparatively.
