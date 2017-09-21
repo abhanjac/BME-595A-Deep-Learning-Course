@@ -1,1 +1,71 @@
+## BME 595A Deep Learning: Homework 4 Report
 
+### Arindam Bhanja Chowdhury
+
+##### Platform and Packages used:
+Anaconda 4.3, python 3.6, PyTorch.
+Operating System:   Ubuntu 14.04.
+PyCharm IDE.
+
+#### Overview of the code:
+The objective of this assignment is to train a neural network (having the same structure as created in the **abhanjac_HW03**) and train it on the **MNIST** dataset. Then another network built with the classes of pytorch has to be trained with the same dataset and the total training time and error has to be compared between the two.
+
+The **MNIST** dataset ([MNIST](http://yann.lecun.com/exdb/mnist/)) has got **60000** training images of **single channel** handwritten digits, each of **28x28** pixels. It also has a set of **10000** test images.
+
+In this code the 60000 image training dataset is imported and then the set is broken down into **1200** batches of **50** images. The test data is also divided into **200** similarly sized batches.
+Each of the images of the training and the testing dataset are converted from a 28x28 image into a **1x784** tensor. These will be the input to the neural network and the corresponding output will be a **1x10** tensor that has a **1** in the index corresponding to the digit represented be the image. All the other indices are **0**. 
+A neural network is created using the same **NeuralNetwork** class of abhanjac_HW03 having the following structure **784-400-200-100-10** where 784 is the number of input layer nodes and 10 is the number of output layer nodes. The others are the nodes of the **three** hidden layers. The learning rate for this network is selected to be **eta = 0.05**. Then the set of all the image tensors of one batch is sent as a **50x784** tensor into the network one by one in a loop and corresponding output set is obtained in the form of a **50x10** tensor. In this way when training is completed with all batches, the total **mean squared training error** and the **trining time** are calculated. The network is validated with the test set images to evaluate the **accuracy** and the **mean squared validation error**. Then the training and testing datasets are re-shuffled. And again the same procedure of training with 50x784 training image batches are continued. In this way **50** iterations of training and validation are performed.
+The plot of the variation of the training and validation error vs the iterations and the training time vs the iterations are shown in the following figures.
+The final accuracy of the network became **98.48 %**.
+Similar procedure is followed for the other neural network of same structure, created by using the **optim** package of pytorch. But for this network the **eta = 6.7** was selected and the overall accuracy was obtained to be **97.72 %**. The time taken for the training was also more. The relevant plots for this network are also shown here.
+
+
+
+#### How to run the code:
+The **MyImg2Num** and the **NnImg2Num** classes can be imported into a python script and they can be trained using the **train()** function and then they can be tested using their **forward()** function.
+
+#### Results:
+The results obtained during the training in the first ans last few iterations are the following (output in the terminal):
+
+########## ---------- 	[[   MyImg2Num   ]]	 ---------- ########## 
+
+Train Iteration: 1	[60000/60000 (100%)]		Loss: 0.053507
+Iteration: 1 	Training error: 0.290 	Accuracy: 91.32 % 	Validation Error: 0.326 	Training time: 7.862 sec
+
+Train Iteration: 2	[60000/60000 (100%)]		Loss: 0.041670
+Iteration: 2 	Training error: 0.046 	Accuracy: 94.85 % 	Validation Error: 0.202 	Training time: 7.867 sec
+
+........
+
+Train Iteration: 49	[60000/60000 (100%)]		Loss: 0.000000
+Iteration: 49 	Training error: 0.000 	Accuracy: 98.47 % 	Validation Error: 0.069 	Training time: 8.021 sec
+
+Train Iteration: 50	[60000/60000 (100%)]		Loss: 0.000000
+Iteration: 50 	Training error: 0.000 	Accuracy: 98.48 % 	Validation Error: 0.069 	Training time: 8.063 sec
+
+
+########## ---------- 	[[   NnImg2Num   ]]	 ---------- ########## 
+
+Train Iteration: 1	[60000/60000 (100%)]		Loss: 0.089956
+Iteration: 1 	Training error: 0.090 	Accuracy: 10.32 % 	Validation Error: 0.090 	Training time: 13.977 sec
+
+Train Iteration: 2	[60000/60000 (100%)]		Loss: 0.077065
+Iteration: 2 	Training error: 0.089 	Accuracy: 24.19 % 	Validation Error: 0.080 	Training time: 13.695 sec
+
+........
+
+Train Iteration: 49	[60000/60000 (100%)]		Loss: 0.000421
+Iteration: 49 	Training error: 0.001 	Accuracy: 97.69 % 	Validation Error: 0.004 	Training time: 14.896 sec
+
+Train Iteration: 50	[60000/60000 (100%)]		Loss: 0.003981
+Iteration: 50 	Training error: 0.001 	Accuracy: 97.72 % 	Validation Error: 0.004 	Training time: 15.581 sec
+
+
+
+#### Theta comparisons between homework 2 and homework 3:
+
+
+
+
+#### Comments and Observations:
+* 
