@@ -1,0 +1,310 @@
+
+
+ ########## ---------- 	[[   MyImg2Num   ]]	 ---------- ########## 
+
+
+Train Iteration: 1	[60000/60000 (100%)]		Loss: 0.053507
+Iteration: 1 	Training error: 0.290 	Accuracy: 91.32 % 	Validation Error: 0.326 	Training time: 7.862 sec
+
+Train Iteration: 2	[60000/60000 (100%)]		Loss: 0.041670
+Iteration: 2 	Training error: 0.046 	Accuracy: 94.85 % 	Validation Error: 0.202 	Training time: 7.867 sec
+
+Train Iteration: 3	[60000/60000 (100%)]		Loss: 0.005985
+Iteration: 3 	Training error: 0.028 	Accuracy: 96.75 % 	Validation Error: 0.127 	Training time: 7.886 sec
+
+Train Iteration: 4	[60000/60000 (100%)]		Loss: 0.005672
+Iteration: 4 	Training error: 0.021 	Accuracy: 96.97 % 	Validation Error: 0.121 	Training time: 7.847 sec
+
+Train Iteration: 5	[60000/60000 (100%)]		Loss: 0.000062
+Iteration: 5 	Training error: 0.016 	Accuracy: 97.29 % 	Validation Error: 0.102 	Training time: 7.915 sec
+
+Train Iteration: 6	[60000/60000 (100%)]		Loss: 0.000937
+Iteration: 6 	Training error: 0.014 	Accuracy: 97.52 % 	Validation Error: 0.095 	Training time: 7.851 sec
+
+Train Iteration: 7	[60000/60000 (100%)]		Loss: 0.001601
+Iteration: 7 	Training error: 0.011 	Accuracy: 97.7 % 	Validation Error: 0.089 	Training time: 7.850 sec
+
+Train Iteration: 8	[60000/60000 (100%)]		Loss: 0.017804
+Iteration: 8 	Training error: 0.009 	Accuracy: 97.42 % 	Validation Error: 0.104 	Training time: 8.212 sec
+
+Train Iteration: 9	[60000/60000 (100%)]		Loss: 0.000122
+Iteration: 9 	Training error: 0.008 	Accuracy: 97.23 % 	Validation Error: 0.110 	Training time: 8.277 sec
+
+Train Iteration: 10	[60000/60000 (100%)]		Loss: 0.000571
+Iteration: 10 	Training error: 0.007 	Accuracy: 97.59 % 	Validation Error: 0.095 	Training time: 8.113 sec
+
+Train Iteration: 11	[60000/60000 (100%)]		Loss: 0.010051
+Iteration: 11 	Training error: 0.005 	Accuracy: 97.75 % 	Validation Error: 0.093 	Training time: 8.080 sec
+
+Train Iteration: 12	[60000/60000 (100%)]		Loss: 0.000063
+Iteration: 12 	Training error: 0.005 	Accuracy: 97.49 % 	Validation Error: 0.106 	Training time: 8.873 sec
+
+Train Iteration: 13	[60000/60000 (100%)]		Loss: 0.000569
+Iteration: 13 	Training error: 0.004 	Accuracy: 97.86 % 	Validation Error: 0.089 	Training time: 8.066 sec
+
+Train Iteration: 14	[60000/60000 (100%)]		Loss: 0.009739
+Iteration: 14 	Training error: 0.003 	Accuracy: 97.44 % 	Validation Error: 0.103 	Training time: 8.608 sec
+
+Train Iteration: 15	[60000/60000 (100%)]		Loss: 0.007878
+Iteration: 15 	Training error: 0.003 	Accuracy: 97.97 % 	Validation Error: 0.087 	Training time: 8.436 sec
+
+Train Iteration: 16	[60000/60000 (100%)]		Loss: 0.010235
+Iteration: 16 	Training error: 0.002 	Accuracy: 97.53 % 	Validation Error: 0.105 	Training time: 8.262 sec
+
+Train Iteration: 17	[60000/60000 (100%)]		Loss: 0.019525
+Iteration: 17 	Training error: 0.003 	Accuracy: 98.1 % 	Validation Error: 0.078 	Training time: 8.511 sec
+
+Train Iteration: 18	[60000/60000 (100%)]		Loss: 0.000000
+Iteration: 18 	Training error: 0.001 	Accuracy: 98.31 % 	Validation Error: 0.072 	Training time: 8.039 sec
+
+Train Iteration: 19	[60000/60000 (100%)]		Loss: 0.000637
+Iteration: 19 	Training error: 0.001 	Accuracy: 98.03 % 	Validation Error: 0.079 	Training time: 8.080 sec
+
+Train Iteration: 20	[60000/60000 (100%)]		Loss: 0.000260
+Iteration: 20 	Training error: 0.002 	Accuracy: 97.96 % 	Validation Error: 0.087 	Training time: 8.061 sec
+
+Train Iteration: 21	[60000/60000 (100%)]		Loss: 0.000111
+Iteration: 21 	Training error: 0.002 	Accuracy: 98.23 % 	Validation Error: 0.075 	Training time: 8.071 sec
+
+Train Iteration: 22	[60000/60000 (100%)]		Loss: 0.000030
+Iteration: 22 	Training error: 0.002 	Accuracy: 98.01 % 	Validation Error: 0.082 	Training time: 8.377 sec
+
+Train Iteration: 23	[60000/60000 (100%)]		Loss: 0.007891
+Iteration: 23 	Training error: 0.001 	Accuracy: 98.08 % 	Validation Error: 0.078 	Training time: 8.147 sec
+
+Train Iteration: 24	[60000/60000 (100%)]		Loss: 0.000027
+Iteration: 24 	Training error: 0.001 	Accuracy: 98.08 % 	Validation Error: 0.080 	Training time: 8.354 sec
+
+Train Iteration: 25	[60000/60000 (100%)]		Loss: 0.004027
+Iteration: 25 	Training error: 0.001 	Accuracy: 97.97 % 	Validation Error: 0.087 	Training time: 8.580 sec
+
+Train Iteration: 26	[60000/60000 (100%)]		Loss: 0.010256
+Iteration: 26 	Training error: 0.002 	Accuracy: 97.98 % 	Validation Error: 0.086 	Training time: 8.026 sec
+
+Train Iteration: 27	[60000/60000 (100%)]		Loss: 0.000023
+Iteration: 27 	Training error: 0.002 	Accuracy: 97.74 % 	Validation Error: 0.091 	Training time: 8.107 sec
+
+Train Iteration: 28	[60000/60000 (100%)]		Loss: 0.000014
+Iteration: 28 	Training error: 0.002 	Accuracy: 97.78 % 	Validation Error: 0.091 	Training time: 8.082 sec
+
+Train Iteration: 29	[60000/60000 (100%)]		Loss: 0.000002
+Iteration: 29 	Training error: 0.001 	Accuracy: 98.21 % 	Validation Error: 0.076 	Training time: 8.092 sec
+
+Train Iteration: 30	[60000/60000 (100%)]		Loss: 0.000000
+Iteration: 30 	Training error: 0.001 	Accuracy: 98.23 % 	Validation Error: 0.078 	Training time: 8.041 sec
+
+Train Iteration: 31	[60000/60000 (100%)]		Loss: 0.000000
+Iteration: 31 	Training error: 0.001 	Accuracy: 98.28 % 	Validation Error: 0.073 	Training time: 8.109 sec
+
+Train Iteration: 32	[60000/60000 (100%)]		Loss: 0.000000
+Iteration: 32 	Training error: 0.000 	Accuracy: 98.39 % 	Validation Error: 0.071 	Training time: 8.063 sec
+
+Train Iteration: 33	[60000/60000 (100%)]		Loss: 0.000002
+Iteration: 33 	Training error: 0.000 	Accuracy: 98.44 % 	Validation Error: 0.070 	Training time: 8.068 sec
+
+Train Iteration: 34	[60000/60000 (100%)]		Loss: 0.000001
+Iteration: 34 	Training error: 0.000 	Accuracy: 98.45 % 	Validation Error: 0.069 	Training time: 8.040 sec
+
+Train Iteration: 35	[60000/60000 (100%)]		Loss: 0.000000
+Iteration: 35 	Training error: 0.000 	Accuracy: 98.49 % 	Validation Error: 0.069 	Training time: 8.053 sec
+
+Train Iteration: 36	[60000/60000 (100%)]		Loss: 0.000000
+Iteration: 36 	Training error: 0.000 	Accuracy: 98.44 % 	Validation Error: 0.069 	Training time: 8.137 sec
+
+Train Iteration: 37	[60000/60000 (100%)]		Loss: 0.000000
+Iteration: 37 	Training error: 0.000 	Accuracy: 98.47 % 	Validation Error: 0.069 	Training time: 8.071 sec
+
+Train Iteration: 38	[60000/60000 (100%)]		Loss: 0.000000
+Iteration: 38 	Training error: 0.000 	Accuracy: 98.45 % 	Validation Error: 0.069 	Training time: 11.502 sec
+
+Train Iteration: 39	[60000/60000 (100%)]		Loss: 0.000000
+Iteration: 39 	Training error: 0.000 	Accuracy: 98.47 % 	Validation Error: 0.069 	Training time: 8.510 sec
+
+Train Iteration: 40	[60000/60000 (100%)]		Loss: 0.000000
+Iteration: 40 	Training error: 0.000 	Accuracy: 98.46 % 	Validation Error: 0.069 	Training time: 8.865 sec
+
+Train Iteration: 41	[60000/60000 (100%)]		Loss: 0.000000
+Iteration: 41 	Training error: 0.000 	Accuracy: 98.44 % 	Validation Error: 0.068 	Training time: 8.410 sec
+
+Train Iteration: 42	[60000/60000 (100%)]		Loss: 0.000000
+Iteration: 42 	Training error: 0.000 	Accuracy: 98.45 % 	Validation Error: 0.069 	Training time: 8.075 sec
+
+Train Iteration: 43	[60000/60000 (100%)]		Loss: 0.000000
+Iteration: 43 	Training error: 0.000 	Accuracy: 98.44 % 	Validation Error: 0.069 	Training time: 8.150 sec
+
+Train Iteration: 44	[60000/60000 (100%)]		Loss: 0.000000
+Iteration: 44 	Training error: 0.000 	Accuracy: 98.47 % 	Validation Error: 0.069 	Training time: 8.165 sec
+
+Train Iteration: 45	[60000/60000 (100%)]		Loss: 0.000000
+Iteration: 45 	Training error: 0.000 	Accuracy: 98.47 % 	Validation Error: 0.068 	Training time: 8.381 sec
+
+Train Iteration: 46	[60000/60000 (100%)]		Loss: 0.000000
+Iteration: 46 	Training error: 0.000 	Accuracy: 98.47 % 	Validation Error: 0.069 	Training time: 8.081 sec
+
+Train Iteration: 47	[60000/60000 (100%)]		Loss: 0.000000
+Iteration: 47 	Training error: 0.000 	Accuracy: 98.46 % 	Validation Error: 0.069 	Training time: 8.067 sec
+
+Train Iteration: 48	[60000/60000 (100%)]		Loss: 0.000000
+Iteration: 48 	Training error: 0.000 	Accuracy: 98.48 % 	Validation Error: 0.069 	Training time: 8.345 sec
+
+Train Iteration: 49	[60000/60000 (100%)]		Loss: 0.000000
+Iteration: 49 	Training error: 0.000 	Accuracy: 98.47 % 	Validation Error: 0.069 	Training time: 8.021 sec
+
+Train Iteration: 50	[60000/60000 (100%)]		Loss: 0.000000
+Iteration: 50 	Training error: 0.000 	Accuracy: 98.48 % 	Validation Error: 0.069 	Training time: 8.063 sec
+
+
+
+ ########## ---------- 	[[   NnImg2Num   ]]	 ---------- ########## 
+
+
+Train Iteration: 1	[60000/60000 (100%)]		Loss: 0.089956
+Iteration: 1 	Training error: 0.090 	Accuracy: 10.32 % 	Validation Error: 0.090 	Training time: 13.977 sec
+
+Train Iteration: 2	[60000/60000 (100%)]		Loss: 0.077065
+Iteration: 2 	Training error: 0.089 	Accuracy: 24.19 % 	Validation Error: 0.080 	Training time: 13.695 sec
+
+Train Iteration: 3	[60000/60000 (100%)]		Loss: 0.037520
+Iteration: 3 	Training error: 0.061 	Accuracy: 77.0 % 	Validation Error: 0.037 	Training time: 16.072 sec
+
+Train Iteration: 4	[60000/60000 (100%)]		Loss: 0.032295
+Iteration: 4 	Training error: 0.027 	Accuracy: 86.56 % 	Validation Error: 0.020 	Training time: 18.607 sec
+
+Train Iteration: 5	[60000/60000 (100%)]		Loss: 0.013523
+Iteration: 5 	Training error: 0.018 	Accuracy: 90.42 % 	Validation Error: 0.015 	Training time: 14.625 sec
+
+Train Iteration: 6	[60000/60000 (100%)]		Loss: 0.015018
+Iteration: 6 	Training error: 0.014 	Accuracy: 91.87 % 	Validation Error: 0.013 	Training time: 13.851 sec
+
+Train Iteration: 7	[60000/60000 (100%)]		Loss: 0.005610
+Iteration: 7 	Training error: 0.012 	Accuracy: 93.11 % 	Validation Error: 0.011 	Training time: 15.176 sec
+
+Train Iteration: 8	[60000/60000 (100%)]		Loss: 0.013603
+Iteration: 8 	Training error: 0.010 	Accuracy: 92.91 % 	Validation Error: 0.011 	Training time: 15.661 sec
+
+Train Iteration: 9	[60000/60000 (100%)]		Loss: 0.004147
+Iteration: 9 	Training error: 0.009 	Accuracy: 94.34 % 	Validation Error: 0.009 	Training time: 13.349 sec
+
+Train Iteration: 10	[60000/60000 (100%)]		Loss: 0.010059
+Iteration: 10 	Training error: 0.008 	Accuracy: 94.94 % 	Validation Error: 0.008 	Training time: 15.278 sec
+
+Train Iteration: 11	[60000/60000 (100%)]		Loss: 0.005284
+Iteration: 11 	Training error: 0.007 	Accuracy: 95.52 % 	Validation Error: 0.007 	Training time: 14.150 sec
+
+Train Iteration: 12	[60000/60000 (100%)]		Loss: 0.005480
+Iteration: 12 	Training error: 0.006 	Accuracy: 95.39 % 	Validation Error: 0.007 	Training time: 19.158 sec
+
+Train Iteration: 13	[60000/60000 (100%)]		Loss: 0.007462
+Iteration: 13 	Training error: 0.006 	Accuracy: 95.78 % 	Validation Error: 0.007 	Training time: 17.799 sec
+
+Train Iteration: 14	[60000/60000 (100%)]		Loss: 0.007355
+Iteration: 14 	Training error: 0.005 	Accuracy: 96.12 % 	Validation Error: 0.006 	Training time: 16.736 sec
+
+Train Iteration: 15	[60000/60000 (100%)]		Loss: 0.000999
+Iteration: 15 	Training error: 0.005 	Accuracy: 96.42 % 	Validation Error: 0.006 	Training time: 17.685 sec
+
+Train Iteration: 16	[60000/60000 (100%)]		Loss: 0.004487
+Iteration: 16 	Training error: 0.004 	Accuracy: 96.72 % 	Validation Error: 0.005 	Training time: 17.310 sec
+
+Train Iteration: 17	[60000/60000 (100%)]		Loss: 0.003139
+Iteration: 17 	Training error: 0.004 	Accuracy: 96.15 % 	Validation Error: 0.006 	Training time: 19.428 sec
+
+Train Iteration: 18	[60000/60000 (100%)]		Loss: 0.001191
+Iteration: 18 	Training error: 0.004 	Accuracy: 96.85 % 	Validation Error: 0.005 	Training time: 20.774 sec
+
+Train Iteration: 19	[60000/60000 (100%)]		Loss: 0.000081
+Iteration: 19 	Training error: 0.004 	Accuracy: 96.6 % 	Validation Error: 0.005 	Training time: 19.244 sec
+
+Train Iteration: 20	[60000/60000 (100%)]		Loss: 0.005849
+Iteration: 20 	Training error: 0.003 	Accuracy: 97.0 % 	Validation Error: 0.005 	Training time: 20.239 sec
+
+Train Iteration: 21	[60000/60000 (100%)]		Loss: 0.001952
+Iteration: 21 	Training error: 0.003 	Accuracy: 97.14 % 	Validation Error: 0.005 	Training time: 18.673 sec
+
+Train Iteration: 22	[60000/60000 (100%)]		Loss: 0.010954
+Iteration: 22 	Training error: 0.003 	Accuracy: 97.16 % 	Validation Error: 0.005 	Training time: 15.336 sec
+
+Train Iteration: 23	[60000/60000 (100%)]		Loss: 0.001353
+Iteration: 23 	Training error: 0.003 	Accuracy: 97.36 % 	Validation Error: 0.004 	Training time: 15.219 sec
+
+Train Iteration: 24	[60000/60000 (100%)]		Loss: 0.001811
+Iteration: 24 	Training error: 0.003 	Accuracy: 97.3 % 	Validation Error: 0.004 	Training time: 16.750 sec
+
+Train Iteration: 25	[60000/60000 (100%)]		Loss: 0.000073
+Iteration: 25 	Training error: 0.002 	Accuracy: 97.46 % 	Validation Error: 0.004 	Training time: 15.496 sec
+
+Train Iteration: 26	[60000/60000 (100%)]		Loss: 0.001976
+Iteration: 26 	Training error: 0.002 	Accuracy: 97.3 % 	Validation Error: 0.004 	Training time: 15.297 sec
+
+Train Iteration: 27	[60000/60000 (100%)]		Loss: 0.005307
+Iteration: 27 	Training error: 0.002 	Accuracy: 97.44 % 	Validation Error: 0.004 	Training time: 17.794 sec
+
+Train Iteration: 28	[60000/60000 (100%)]		Loss: 0.003726
+Iteration: 28 	Training error: 0.002 	Accuracy: 97.52 % 	Validation Error: 0.004 	Training time: 15.895 sec
+
+Train Iteration: 29	[60000/60000 (100%)]		Loss: 0.001767
+Iteration: 29 	Training error: 0.002 	Accuracy: 97.42 % 	Validation Error: 0.004 	Training time: 18.011 sec
+
+Train Iteration: 30	[60000/60000 (100%)]		Loss: 0.000401
+Iteration: 30 	Training error: 0.002 	Accuracy: 97.32 % 	Validation Error: 0.004 	Training time: 17.777 sec
+
+Train Iteration: 31	[60000/60000 (100%)]		Loss: 0.003996
+Iteration: 31 	Training error: 0.002 	Accuracy: 97.69 % 	Validation Error: 0.004 	Training time: 17.167 sec
+
+Train Iteration: 32	[60000/60000 (100%)]		Loss: 0.001770
+Iteration: 32 	Training error: 0.002 	Accuracy: 97.51 % 	Validation Error: 0.004 	Training time: 15.962 sec
+
+Train Iteration: 33	[60000/60000 (100%)]		Loss: 0.004071
+Iteration: 33 	Training error: 0.001 	Accuracy: 97.35 % 	Validation Error: 0.004 	Training time: 17.028 sec
+
+Train Iteration: 34	[60000/60000 (100%)]		Loss: 0.000716
+Iteration: 34 	Training error: 0.001 	Accuracy: 97.76 % 	Validation Error: 0.004 	Training time: 17.168 sec
+
+Train Iteration: 35	[60000/60000 (100%)]		Loss: 0.004845
+Iteration: 35 	Training error: 0.001 	Accuracy: 97.59 % 	Validation Error: 0.004 	Training time: 16.120 sec
+
+Train Iteration: 36	[60000/60000 (100%)]		Loss: 0.004145
+Iteration: 36 	Training error: 0.001 	Accuracy: 97.62 % 	Validation Error: 0.004 	Training time: 15.246 sec
+
+Train Iteration: 37	[60000/60000 (100%)]		Loss: 0.000664
+Iteration: 37 	Training error: 0.001 	Accuracy: 97.59 % 	Validation Error: 0.004 	Training time: 15.178 sec
+
+Train Iteration: 38	[60000/60000 (100%)]		Loss: 0.000252
+Iteration: 38 	Training error: 0.001 	Accuracy: 97.61 % 	Validation Error: 0.004 	Training time: 16.641 sec
+
+Train Iteration: 39	[60000/60000 (100%)]		Loss: 0.000009
+Iteration: 39 	Training error: 0.001 	Accuracy: 97.57 % 	Validation Error: 0.004 	Training time: 15.749 sec
+
+Train Iteration: 40	[60000/60000 (100%)]		Loss: 0.000092
+Iteration: 40 	Training error: 0.001 	Accuracy: 97.73 % 	Validation Error: 0.004 	Training time: 14.815 sec
+
+Train Iteration: 41	[60000/60000 (100%)]		Loss: 0.000548
+Iteration: 41 	Training error: 0.001 	Accuracy: 97.65 % 	Validation Error: 0.004 	Training time: 16.042 sec
+
+Train Iteration: 42	[60000/60000 (100%)]		Loss: 0.000157
+Iteration: 42 	Training error: 0.001 	Accuracy: 97.69 % 	Validation Error: 0.004 	Training time: 16.283 sec
+
+Train Iteration: 43	[60000/60000 (100%)]		Loss: 0.000239
+Iteration: 43 	Training error: 0.001 	Accuracy: 97.67 % 	Validation Error: 0.004 	Training time: 15.909 sec
+
+Train Iteration: 44	[60000/60000 (100%)]		Loss: 0.000116
+Iteration: 44 	Training error: 0.001 	Accuracy: 97.77 % 	Validation Error: 0.004 	Training time: 15.496 sec
+
+Train Iteration: 45	[60000/60000 (100%)]		Loss: 0.000100
+Iteration: 45 	Training error: 0.001 	Accuracy: 97.65 % 	Validation Error: 0.004 	Training time: 17.361 sec
+
+Train Iteration: 46	[60000/60000 (100%)]		Loss: 0.000154
+Iteration: 46 	Training error: 0.001 	Accuracy: 97.69 % 	Validation Error: 0.004 	Training time: 15.342 sec
+
+Train Iteration: 47	[60000/60000 (100%)]		Loss: 0.000102
+Iteration: 47 	Training error: 0.001 	Accuracy: 97.66 % 	Validation Error: 0.004 	Training time: 16.350 sec
+
+Train Iteration: 48	[60000/60000 (100%)]		Loss: 0.000081
+Iteration: 48 	Training error: 0.001 	Accuracy: 97.8 % 	Validation Error: 0.004 	Training time: 18.332 sec
+
+Train Iteration: 49	[60000/60000 (100%)]		Loss: 0.000421
+Iteration: 49 	Training error: 0.001 	Accuracy: 97.69 % 	Validation Error: 0.004 	Training time: 14.896 sec
+
+Train Iteration: 50	[60000/60000 (100%)]		Loss: 0.003981
+Iteration: 50 	Training error: 0.001 	Accuracy: 97.72 % 	Validation Error: 0.004 	Training time: 15.581 sec
+
