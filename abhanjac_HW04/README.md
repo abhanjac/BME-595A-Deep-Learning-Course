@@ -79,10 +79,20 @@ Iteration: 50 	Training error: 0.001 	Accuracy: 97.72 % 	Validation Error: 0.004
 
 The full list of the output is give in the following file ([training_status_of_MyImg2Num_NnImg2Num.txt](https://github.com/abhanjac/BME-595A-Deep-Learning-Course/blob/master/abhanjac_HW04/training_status_of_MyImg2Num_NnImg2Num.txt)).
 
-#### Theta comparisons between homework 2 and homework 3:
+#### Comparison between the MyImg2Num and NnImg2Num neural networks:
+(**Note:** Both the networks are trained for the same number or iterations and have identical structures.)
 
-
-
+| Model attributes | MyImg2Num | NnImg2Num |
+|---|---|---|
+| **Training time (sec) (approx, for every iteration)** | 8.5 | 17 |
+| **Training error (after 50 iterations)** | 0.000 | 0.001 |
+| **Validation error (after 50 iterations)** | 0.069 | 0.004 |
+| **Accuracy (%) (after 50 iterations)** | 98.48 | 97.72 |
+| **Learning rate (eta)** | 0.05 | 6.7 |
 
 #### Comments and Observations:
-* 
+* It seems that when we try to use a bigger model with more hidden layers, the training takes more time.
+* Training the images in batches is faster than training the whole set of images together.
+* The MyImg2Num performs better overall, but there is a difference between the training and the validation error at the end of the 50th iteration. But the NnImg2Num on the other hand has these two errors very close to each other in values.
+
+
