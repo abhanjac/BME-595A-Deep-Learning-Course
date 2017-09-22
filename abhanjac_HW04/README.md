@@ -94,5 +94,5 @@ The full list of the output is give in the following file ([training_status_of_M
 * It seems that when we try to use a bigger model with more hidden layers, the training takes more time.
 * Training the images in batches is faster than training the whole set of images together.
 * The MyImg2Num performs better overall, but there is a difference between the training and the validation error at the end of the 50th iteration. But the NnImg2Num on the other hand has these two errors very close to each other in values.
-
+* If the size of the batches is decreased then the training takes more time.
 
