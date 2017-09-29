@@ -111,10 +111,43 @@ The full list of the output is give in the following file ([training_status_of_I
 ##### Accuracy vs the number of Epochs (Img2Obj - LeNet5 on CIFAR100):
 ![training_time_comparison_img2num_and_NnImg2Num.png](https://github.com/abhanjac/BME-595A-Deep-Learning-Course/blob/master/abhanjac_HW05/accuracy_vs_epoch_img2obj.png)
 
+##### Working of the cam function after LeNet5 has been trained on CIFAR100:
+![cam_function_output_cropped.png](https://github.com/abhanjac/BME-595A-Deep-Learning-Course/blob/master/abhanjac_HW05/cam_function_output_cropped.png)
+
+
+The results obtained during training on the **CIFAR100** in the first ans last few iterations are the following (output in the terminal):
+
+```
+ ########## ----------  [[   Img2Obj: LeNet5_cifar100   ]]   ---------- ########## 
+
+Train Epoch: 1  [50000/50000 (100%)]        Loss: 0.009810
+Training error: 0.010   Accuracy: 4.63 %    Validation Error: 0.010     Training time for current epoch: 25.127 sec
+
+Train Epoch: 2  [50000/50000 (100%)]        Loss: 0.009747
+Training error: 0.010   Accuracy: 6.51 %    Validation Error: 0.010     Training time for current epoch: 20.765 sec
+
+---------
+
+Train Epoch: 49 [50000/50000 (100%)]        Loss: 0.007885
+Training error: 0.008   Accuracy: 25.57 %   Validation Error: 0.009     Training time for current epoch: 22.204 sec
+
+Train Epoch: 50 [50000/50000 (100%)]        Loss: 0.006403
+Training error: 0.008   Accuracy: 25.65 %   Validation Error: 0.009     Training time for current epoch: 22.394 sec
+
+```
+
+The full list of the output is give in the following file ([training_status_of_img2obj.txt](https://github.com/abhanjac/BME-595A-Deep-Learning-Course/blob/master/abhanjac_HW05/training_status_of_img2obj.txt)).
+
+
+| Model attributes | Img2Obj |
+|---|---|
+| **Training error (after 50 iterations)** | 0.008 |
+| **Validation error (after 50 iterations)** | 0.009 |
+| **Accuracy (%) (after 50 iterations)** | 25.65 |
+| **Learning rate (eta)** | 1.0 |
+
 
 #### Comments and Observations:
-* It seems that when we try to use a bigger model with more hidden layers, the training takes more time.
-* Training the images in batches is faster than training the whole set of images together.
-* The MyImg2Num performs better overall, but there is a difference between the training and the validation error at the end of the 50th iteration. But the NnImg2Num on the other hand has these two errors very close to each other in values.
-* If the size of the batches is decreased then the training takes more time.
-
+* Convolution neural network works better than normal neural network. The performance comparison of the two on MNIST proves that.
+* The CIFAR100 gives only a very small accuracy as the LeNet5 might not be a good network to classify it.
+* The LeNet5 network always gives a label that as output that has the maximum probability. Hence even if there is no specific picture of object in front of the camera, still there will be some erronous output always present.
