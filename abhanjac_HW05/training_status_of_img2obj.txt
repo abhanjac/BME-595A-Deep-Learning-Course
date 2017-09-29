@@ -1,0 +1,158 @@
+Training set size: 50000, Test set size: 10000, Number of Classes: 100
+
+
+ ########## ----------  [[   Img2Obj: LeNet5_cifar100   ]]   ---------- ########## 
+
+
+Train Epoch: 1  [50000/50000 (100%)]        Loss: 0.009810
+Training error: 0.010   Accuracy: 4.63 %    Validation Error: 0.010     Training time for current epoch: 25.127 sec
+
+Train Epoch: 2  [50000/50000 (100%)]        Loss: 0.009747
+Training error: 0.010   Accuracy: 6.51 %    Validation Error: 0.010     Training time for current epoch: 20.765 sec
+
+Train Epoch: 3  [50000/50000 (100%)]        Loss: 0.009747
+Training error: 0.010   Accuracy: 9.65 %    Validation Error: 0.010     Training time for current epoch: 21.423 sec
+
+Train Epoch: 4  [50000/50000 (100%)]        Loss: 0.009602
+Training error: 0.010   Accuracy: 10.69 %   Validation Error: 0.010     Training time for current epoch: 22.612 sec
+
+Train Epoch: 5  [50000/50000 (100%)]        Loss: 0.009624
+Training error: 0.010   Accuracy: 12.95 %   Validation Error: 0.010     Training time for current epoch: 21.773 sec
+
+Train Epoch: 6  [50000/50000 (100%)]        Loss: 0.009483
+Training error: 0.010   Accuracy: 14.84 %   Validation Error: 0.010     Training time for current epoch: 21.919 sec
+
+Train Epoch: 7  [50000/50000 (100%)]        Loss: 0.009408
+Training error: 0.009   Accuracy: 15.35 %   Validation Error: 0.009     Training time for current epoch: 21.663 sec
+
+Train Epoch: 8  [50000/50000 (100%)]        Loss: 0.009347
+Training error: 0.009   Accuracy: 16.67 %   Validation Error: 0.009     Training time for current epoch: 21.691 sec
+
+Train Epoch: 9  [50000/50000 (100%)]        Loss: 0.009323
+Training error: 0.009   Accuracy: 18.13 %   Validation Error: 0.009     Training time for current epoch: 22.289 sec
+
+Train Epoch: 10 [50000/50000 (100%)]        Loss: 0.009107
+Training error: 0.009   Accuracy: 18.45 %   Validation Error: 0.009     Training time for current epoch: 20.920 sec
+
+Train Epoch: 11 [50000/50000 (100%)]        Loss: 0.009441
+Training error: 0.009   Accuracy: 18.89 %   Validation Error: 0.009     Training time for current epoch: 21.704 sec
+
+Train Epoch: 12 [50000/50000 (100%)]        Loss: 0.009212
+Training error: 0.009   Accuracy: 20.23 %   Validation Error: 0.009     Training time for current epoch: 19.817 sec
+
+Train Epoch: 13 [50000/50000 (100%)]        Loss: 0.009204
+Training error: 0.009   Accuracy: 20.57 %   Validation Error: 0.009     Training time for current epoch: 22.017 sec
+
+Train Epoch: 14 [50000/50000 (100%)]        Loss: 0.009354
+Training error: 0.009   Accuracy: 20.85 %   Validation Error: 0.009     Training time for current epoch: 22.084 sec
+
+Train Epoch: 15 [50000/50000 (100%)]        Loss: 0.009537
+Training error: 0.009   Accuracy: 21.17 %   Validation Error: 0.009     Training time for current epoch: 21.688 sec
+
+Train Epoch: 16 [50000/50000 (100%)]        Loss: 0.009452
+Training error: 0.009   Accuracy: 22.22 %   Validation Error: 0.009     Training time for current epoch: 19.952 sec
+
+Train Epoch: 17 [50000/50000 (100%)]        Loss: 0.008970
+Training error: 0.009   Accuracy: 22.23 %   Validation Error: 0.009     Training time for current epoch: 25.829 sec
+
+Train Epoch: 18 [50000/50000 (100%)]        Loss: 0.008950
+Training error: 0.009   Accuracy: 22.82 %   Validation Error: 0.009     Training time for current epoch: 21.876 sec
+
+Train Epoch: 19 [50000/50000 (100%)]        Loss: 0.009035
+Training error: 0.009   Accuracy: 22.99 %   Validation Error: 0.009     Training time for current epoch: 21.995 sec
+
+Train Epoch: 20 [50000/50000 (100%)]        Loss: 0.009044
+Training error: 0.009   Accuracy: 23.08 %   Validation Error: 0.009     Training time for current epoch: 21.886 sec
+
+Train Epoch: 21 [50000/50000 (100%)]        Loss: 0.008954
+Training error: 0.009   Accuracy: 22.97 %   Validation Error: 0.009     Training time for current epoch: 21.826 sec
+
+Train Epoch: 22 [50000/50000 (100%)]        Loss: 0.008919
+Training error: 0.009   Accuracy: 23.47 %   Validation Error: 0.009     Training time for current epoch: 21.509 sec
+
+Train Epoch: 23 [50000/50000 (100%)]        Loss: 0.008776
+Training error: 0.009   Accuracy: 23.75 %   Validation Error: 0.009     Training time for current epoch: 21.979 sec
+
+Train Epoch: 24 [50000/50000 (100%)]        Loss: 0.008461
+Training error: 0.009   Accuracy: 24.21 %   Validation Error: 0.009     Training time for current epoch: 22.384 sec
+
+Train Epoch: 25 [50000/50000 (100%)]        Loss: 0.008593
+Training error: 0.009   Accuracy: 24.10 %   Validation Error: 0.009     Training time for current epoch: 22.187 sec
+
+Train Epoch: 26 [50000/50000 (100%)]        Loss: 0.008758
+Training error: 0.008   Accuracy: 24.13 %   Validation Error: 0.009     Training time for current epoch: 22.103 sec
+
+Train Epoch: 27 [50000/50000 (100%)]        Loss: 0.008666
+Training error: 0.008   Accuracy: 24.30 %   Validation Error: 0.009     Training time for current epoch: 21.364 sec
+
+Train Epoch: 28 [50000/50000 (100%)]        Loss: 0.008391
+Training error: 0.008   Accuracy: 25.41 %   Validation Error: 0.009     Training time for current epoch: 21.566 sec
+
+Train Epoch: 29 [50000/50000 (100%)]        Loss: 0.007901
+Training error: 0.008   Accuracy: 25.52 %   Validation Error: 0.009     Training time for current epoch: 21.947 sec
+
+Train Epoch: 30 [50000/50000 (100%)]        Loss: 0.008298
+Training error: 0.008   Accuracy: 25.44 %   Validation Error: 0.009     Training time for current epoch: 20.481 sec
+
+Train Epoch: 31 [50000/50000 (100%)]        Loss: 0.008755
+Training error: 0.008   Accuracy: 25.18 %   Validation Error: 0.009     Training time for current epoch: 22.021 sec
+
+Train Epoch: 32 [50000/50000 (100%)]        Loss: 0.007387
+Training error: 0.008   Accuracy: 25.32 %   Validation Error: 0.009     Training time for current epoch: 21.816 sec
+
+Train Epoch: 33 [50000/50000 (100%)]        Loss: 0.008598
+Training error: 0.008   Accuracy: 25.01 %   Validation Error: 0.009     Training time for current epoch: 21.875 sec
+
+Train Epoch: 34 [50000/50000 (100%)]        Loss: 0.008275
+Training error: 0.008   Accuracy: 24.74 %   Validation Error: 0.009     Training time for current epoch: 21.528 sec
+
+Train Epoch: 35 [50000/50000 (100%)]        Loss: 0.007306
+Training error: 0.008   Accuracy: 24.46 %   Validation Error: 0.009     Training time for current epoch: 21.900 sec
+
+Train Epoch: 36 [50000/50000 (100%)]        Loss: 0.008594
+Training error: 0.008   Accuracy: 25.22 %   Validation Error: 0.009     Training time for current epoch: 21.852 sec
+
+Train Epoch: 37 [50000/50000 (100%)]        Loss: 0.008579
+Training error: 0.008   Accuracy: 25.55 %   Validation Error: 0.009     Training time for current epoch: 22.006 sec
+
+Train Epoch: 38 [50000/50000 (100%)]        Loss: 0.007631
+Training error: 0.008   Accuracy: 25.38 %   Validation Error: 0.009     Training time for current epoch: 19.533 sec
+
+Train Epoch: 39 [50000/50000 (100%)]        Loss: 0.008479
+Training error: 0.008   Accuracy: 25.11 %   Validation Error: 0.009     Training time for current epoch: 21.564 sec
+
+Train Epoch: 40 [50000/50000 (100%)]        Loss: 0.008069
+Training error: 0.008   Accuracy: 25.35 %   Validation Error: 0.009     Training time for current epoch: 22.137 sec
+
+Train Epoch: 41 [50000/50000 (100%)]        Loss: 0.008098
+Training error: 0.008   Accuracy: 25.55 %   Validation Error: 0.009     Training time for current epoch: 20.227 sec
+
+Train Epoch: 42 [50000/50000 (100%)]        Loss: 0.007903
+Training error: 0.008   Accuracy: 25.44 %   Validation Error: 0.009     Training time for current epoch: 22.236 sec
+
+Train Epoch: 43 [50000/50000 (100%)]        Loss: 0.006792
+Training error: 0.008   Accuracy: 25.16 %   Validation Error: 0.009     Training time for current epoch: 21.352 sec
+
+Train Epoch: 44 [50000/50000 (100%)]        Loss: 0.008130
+Training error: 0.008   Accuracy: 25.37 %   Validation Error: 0.009     Training time for current epoch: 20.946 sec
+
+Train Epoch: 45 [50000/50000 (100%)]        Loss: 0.006814
+Training error: 0.008   Accuracy: 25.24 %   Validation Error: 0.009     Training time for current epoch: 21.891 sec
+
+Train Epoch: 46 [50000/50000 (100%)]        Loss: 0.007678
+Training error: 0.008   Accuracy: 25.60 %   Validation Error: 0.009     Training time for current epoch: 22.216 sec
+
+Train Epoch: 47 [50000/50000 (100%)]        Loss: 0.008085
+Training error: 0.008   Accuracy: 24.97 %   Validation Error: 0.009     Training time for current epoch: 21.852 sec
+
+Train Epoch: 48 [50000/50000 (100%)]        Loss: 0.008201
+Training error: 0.008   Accuracy: 24.75 %   Validation Error: 0.009     Training time for current epoch: 22.241 sec
+
+Train Epoch: 49 [50000/50000 (100%)]        Loss: 0.007885
+Training error: 0.008   Accuracy: 25.57 %   Validation Error: 0.009     Training time for current epoch: 22.204 sec
+
+Train Epoch: 50 [50000/50000 (100%)]        Loss: 0.006403
+Training error: 0.008   Accuracy: 25.65 %   Validation Error: 0.009     Training time for current epoch: 22.394 sec
+
+
+Finished Training... Total time elapsed: 1090.165398 sec
