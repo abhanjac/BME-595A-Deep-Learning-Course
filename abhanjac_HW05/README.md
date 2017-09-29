@@ -1,5 +1,5 @@
 
-## BME 595A Deep Learning: Homework 4 Report
+## BME 595A Deep Learning: Homework 5 Report
 
 ### Arindam Bhanja Chowdhury
 
@@ -9,24 +9,18 @@ Operating System:   Ubuntu 14.04.
 PyCharm IDE.
 
 #### Overview of the code:
-The objective of this assignment is to train a neural network (having the same structure as created in the **abhanjac_HW03**) and train it on the **MNIST** dataset. Then another network built with the classes of pytorch has to be trained with the same dataset and the total training time and error has to be compared between the two.
-
-The **MNIST** dataset ([MNIST](http://yann.lecun.com/exdb/mnist/)) has got **60000** training images of **single channel** handwritten digits, each of **28x28** pixels. It also has a set of **10000** test images.
-
-In this code the 60000 image training dataset is imported and then the set is broken down into **1200** batches of **50** images. The test data is also divided into **200** similarly sized batches.
-Each of the images of the training and the testing dataset are converted from a 28x28 image into a **1x784** tensor. These will be the input to the neural network and the corresponding output will be a **1x10** tensor that has a **1** in the index corresponding to the digit represented be the image. All the other indices are **0**. 
-A neural network is created using the same **NeuralNetwork** class of abhanjac_HW03 having the following structure **784-400-200-100-10** where 784 is the number of input layer nodes and 10 is the number of output layer nodes. The others are the nodes of the **three** hidden layers. The learning rate for this network is selected to be **eta = 0.05**. Then the set of all the image tensors of one batch is sent as a **50x784** tensor into the network one by one in a loop and corresponding output set is obtained in the form of a **50x10** tensor. In this way when training is completed with all batches, the total **mean squared training error** and the **trining time** are calculated. The network is validated with the test set images to evaluate the **accuracy** and the **mean squared validation error**. Then the training and testing datasets are re-shuffled. And again the same procedure of training with 50x784 training image batches are continued. In this way **50** iterations of training and validation are performed.
-The plot of the variation of the training and validation error vs the iterations and the training time vs the iterations are shown in the figures given in the result section.
-
-The final accuracy of the network became **98.48 %** and the average training time was **8.5 seconds**.
-Similar procedure is followed for the other neural network of same structure, created by using the **optim** package of pytorch. But for this network the **eta = 6.7** was selected and the overall accuracy was obtained to be **97.72 %**. The average training time was **17 seconds**. The time taken for the training was also more. The relevant plots for this network are also shown in the result section.
+The objective of this assignment is to use the **LeNet5** ([LeNet5](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)) convolution neural network to train the **MNIST** ([MNIST](http://yann.lecun.com/exdb/mnist/)) dataset and then compare the performance with the neural network that was used in the **abhanjac_HW04**. In the second part of the code we have to train the same **LeNet5** network on the **CIFAR100** ([CIFAR100](https://www.cs.toronto.edu/~kriz/cifar.html)) image dataset and check the performance of the network. The CIFAR100 dataset has got **50000** training images and **10000** test images. 
+We have also used a **view** and another **cam** function for this assignment.
+The view function takes in a **3x32x32** byte tensor (which is also the form in which the training images are fed to the LeNet5 network) and convert and display them as colored images. The images however are very small, and so they are resized to a **320x240** image before displaying it. It also internally calls the forward function of the LeNet5 network and also displays the predicted label as the title of the displayed window.
+The cam function captures the video from a camera and shows the video. This function also internally calls the forward function of the LeNet5 network and feeds it with a **32x32** resized version of every video frame (which is actually of **640x480** size). If a picture of an object that the network has been trained with is held in front of the camera, then the predicted object name is displayed on the screen.
+Details of the accuracy and time of the LeNet5 on CIFAR100 and the comparison between LeNet5 and the neural network (of abhanjac_HW04 assignment) when both running MNIST, is given below in the result section.
 
 #### How to run the code:
-The **MyImg2Num** and the **NnImg2Num** classes can be imported into a python script and they can be trained using the **train()** function and then they can be tested using their **forward()** function.
+The **Img2Num** and the **Img2Obj** classes can be imported into a python script and they can be trained using the **train()** function and then they can be tested using their **forward()** function.
 
 #### Results:
 
-##### Training and Validation error vs the number of Iterations (MyImg2Num - network based on abhanjac_HW03):
+##### Training and Validation error vs the number of Iterations (Img2Num - LeNet5 on MNIST):
 ![error_vs_iteration_MyImg2Num.png](https://github.com/abhanjac/BME-595A-Deep-Learning-Course/blob/master/abhanjac_HW04/error_vs_iteration_MyImg2Num.png)
 
 ##### Training time (seconds) vs the number of Iterations (MyImg2Num - network based on abhanjac_HW03):
