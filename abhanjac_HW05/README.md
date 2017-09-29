@@ -18,18 +18,17 @@ Details of the accuracy and time of the LeNet5 on CIFAR100 and the comparison be
 #### How to run the code:
 The **Img2Num** and the **Img2Obj** classes can be imported into a python script and they can be trained using the **train()** function and then they can be tested using their **forward()** function.
 
-#### Results:
+#### Results on MNIST:
 
-##### Training and Validation error vs the number of Iterations (Img2Num - LeNet5 on MNIST):
+##### Training and Validation error vs the number of Epochs (Img2Num - LeNet5 on MNIST):
 ![error_vs_iteration_Img2Num.png](https://github.com/abhanjac/BME-595A-Deep-Learning-Course/blob/master/abhanjac_HW05/error_vs_epoch_img2num.png)
 
-##### Training time (seconds) vs the number of Iterations (Img2Num - LeNet5 on MNIST):
+##### Training time (seconds) vs the number of Epochs (Img2Num - LeNet5 on MNIST):
 ![training_time_vs_iteration_Img2Num.png](https://github.com/abhanjac/BME-595A-Deep-Learning-Course/blob/master/abhanjac_HW05/training_time_vs_epoch_img2num.png)
 
 ##### Training time comparison between the NnImg2Num (network based on abhanjac_HW04) and LeNet5 network:
 ![training_time_comparison_img2num_and_NnImg2Num.png](https://github.com/abhanjac/BME-595A-Deep-Learning-Course/blob/master/abhanjac_HW05/training_time_comparison_img2num_and_NnImg2Num.png)
 
-##### 
 
 The results obtained during training on the **MNIST** in the first ans last few iterations are the following (output in the terminal):
 NnImg2Num is when MNIST was training the simple neural network of abhanjac_HW04 and Img2Num is when MNIST was training the LeNet5 network.
@@ -58,6 +57,7 @@ Training error: 0.002 	Accuracy: 98.93 % 	Validation Error: 0.003 	Training time
 
 Train Epoch: 50	[60000/60000 (100%)]		Loss: 0.001863
 Training error: 0.002 	Accuracy: 98.91 % 	Validation Error: 0.003 	Training time: 24.203 sec
+
 
 
 ########## ---------- 	[[   NnImg2Num   ]]	 ---------- ########## 
@@ -100,7 +100,16 @@ The full list of the output is give in the following file ([training_status_of_I
 | **Learning rate (eta)** | 0.1 | 6.7 |
 
 
+#### Result on CIFAR100:
 
+##### Training and Validation error vs the number of Epochs (Img2Obj - LeNet5 on CIFAR100):
+![error_vs_iteration_Img2Obj.png](https://github.com/abhanjac/BME-595A-Deep-Learning-Course/blob/master/abhanjac_HW05/error_vs_epoch_img2obj.png)
+
+##### Training time (seconds) vs the number of Epochs (Img2Obj - LeNet5 on CIFAR100):
+![training_time_vs_iteration_Img2Obj.png](https://github.com/abhanjac/BME-595A-Deep-Learning-Course/blob/master/abhanjac_HW05/training_time_vs_epoch_img2obj.png)
+
+##### Accuracy vs the number of Epochs (Img2Obj - LeNet5 on CIFAR100):
+![training_time_comparison_img2num_and_NnImg2Num.png](https://github.com/abhanjac/BME-595A-Deep-Learning-Course/blob/master/abhanjac_HW05/accuracy_vs_epoch_img2obj.png)
 
 
 #### Comments and Observations:
