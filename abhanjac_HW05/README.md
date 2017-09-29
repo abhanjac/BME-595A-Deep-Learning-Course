@@ -45,6 +45,14 @@ Training error: 0.024 	Accuracy: 93.96 % 	Validation Error: 0.017 	Training time
 
 ........
 
+Train Epoch: 9	[60000/60000 (100%)]		Loss: 0.008693
+Training error: 0.007 	Accuracy: 97.69 % 	Validation Error: 0.007 	Training time: 21.887 sec
+
+Train Epoch: 10	[60000/60000 (100%)]		Loss: 0.008536
+Training error: 0.007 	Accuracy: 97.82 % 	Validation Error: 0.006 	Training time: 25.947 sec
+
+........
+
 Train Epoch: 49	[60000/60000 (100%)]		Loss: 0.004314
 Training error: 0.002 	Accuracy: 98.93 % 	Validation Error: 0.003 	Training time: 19.853 sec
 
@@ -62,6 +70,14 @@ Training error: 0.090 	Accuracy: 19.96 % 	Validation Error: 0.088 	Training time
 
 ........
 
+Train Epoch: 9	[60000/60000 (100%)]		Loss: 0.009114
+Training error: 0.009 	Accuracy: 94.49 % 	Validation Error: 0.009 	Training time: 16.550 sec
+
+Train Epoch: 10	[60000/60000 (100%)]		Loss: 0.011974
+Training error: 0.008 	Accuracy: 94.85 % 	Validation Error: 0.008 	Training time: 16.199 sec
+
+........
+
 Train Epoch: 49	[60000/60000 (100%)]		Loss: 0.000079
 Training error: 0.001 	Accuracy: 97.66 % 	Validation Error: 0.004 	Training time: 16.415 sec
 
@@ -72,16 +88,20 @@ Training error: 0.001 	Accuracy: 97.67 % 	Validation Error: 0.004 	Training time
 
 The full list of the output is give in the following file ([training_status_of_Img2Num_NnImg2Num.txt](https://github.com/abhanjac/BME-595A-Deep-Learning-Course/blob/master/abhanjac_HW05/training_status_of_img2num_NnImg2Num.txt)).
 
-#### Comparison between the MyImg2Num and NnImg2Num neural networks:
-(**Note:** Both the networks are trained for the same number or iterations and have identical structures.)
+#### Comparison between the Img2Num and NnImg2Num neural networks:
+(**Note:** Both the networks are trained for the same number or iterations, but the **LeNet5** reached the same accuracy level with a much lower number of epochs.)
 
-| Model attributes | MyImg2Num | NnImg2Num |
+| Model attributes | Img2Num | NnImg2Num |
 |---|---|---|
-| **Training time (sec) (approx, for every iteration)** | 8.5 | 17 |
-| **Training error (after 50 iterations)** | 0.000 | 0.001 |
-| **Validation error (after 50 iterations)** | 0.069 | 0.004 |
-| **Accuracy (%) (after 50 iterations)** | 98.48 | 97.72 |
-| **Learning rate (eta)** | 0.05 | 6.7 |
+| **Training error (after 50 iterations)** | 0.002 | 0.001 |
+| **Validation error (after 50 iterations)** | 0.003 | 0.004 |
+| **Accuracy (%) (after 9 iterations)** | 97.82 | 94.85 |
+| **Accuracy (%) (after 50 iterations)** | 98.91 | 97.67 |
+| **Learning rate (eta)** | 0.1 | 6.7 |
+
+
+
+
 
 #### Comments and Observations:
 * It seems that when we try to use a bigger model with more hidden layers, the training takes more time.
