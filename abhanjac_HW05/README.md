@@ -21,58 +21,56 @@ The **Img2Num** and the **Img2Obj** classes can be imported into a python script
 #### Results:
 
 ##### Training and Validation error vs the number of Iterations (Img2Num - LeNet5 on MNIST):
-![error_vs_iteration_MyImg2Num.png](https://github.com/abhanjac/BME-595A-Deep-Learning-Course/blob/master/abhanjac_HW04/error_vs_iteration_MyImg2Num.png)
+![error_vs_iteration_Img2Num.png](https://github.com/abhanjac/BME-595A-Deep-Learning-Course/blob/master/abhanjac_HW05/error_vs_epoch_img2num.png)
 
-##### Training time (seconds) vs the number of Iterations (MyImg2Num - network based on abhanjac_HW03):
-![training_time_vs_iteration_MyImg2Num.png](https://github.com/abhanjac/BME-595A-Deep-Learning-Course/blob/master/abhanjac_HW04/training_time_vs_iteration_MyImg2Num.png)
+##### Training time (seconds) vs the number of Iterations (Img2Num - LeNet5 on MNIST):
+![training_time_vs_iteration_Img2Num.png](https://github.com/abhanjac/BME-595A-Deep-Learning-Course/blob/master/abhanjac_HW05/training_time_vs_epoch_img2num.png)
 
-##### Training and Validation error vs the number of Iterations (NnImg2Num - network based on pyTorch classes):
-![error_vs_iteration_NnImg2Num.png](https://github.com/abhanjac/BME-595A-Deep-Learning-Course/blob/master/abhanjac_HW04/error_vs_iteration_NnImg2Num.png)
+##### Training time comparison between the NnImg2Num (network based on abhanjac_HW04) and LeNet5 network:
+![training_time_comparison_img2num_and_NnImg2Num.png](https://github.com/abhanjac/BME-595A-Deep-Learning-Course/blob/master/abhanjac_HW05/training_time_comparison_img2num_and_NnImg2Num.png)
 
-##### Training time (seconds) vs the number of Iterations (NnImg2Num - network based on pyTorch classes):
-![training_time_vs_iteration_NnImg2Num.png](https://github.com/abhanjac/BME-595A-Deep-Learning-Course/blob/master/abhanjac_HW04/training_time_vs_iteration_NnImg2Num.png)
+##### 
 
-##### Training time comparison between the MyImg2Num and NnImg2Num networks:
-![training_time_comparison_MyImg2Num_and_NnImg2Num.png](https://github.com/abhanjac/BME-595A-Deep-Learning-Course/blob/master/abhanjac_HW04/training_time_comparison_MyImg2Num_and_NnImg2Num.png)
-
-The results obtained during the training in the first ans last few iterations are the following (output in the terminal):
+The results obtained during training on the **MNIST** in the first ans last few iterations are the following (output in the terminal):
+NnImg2Num is when MNIST was training the simple neural network of abhanjac_HW04 and Img2Num is when MNIST was training the LeNet5 network.
 
 ```
-########## ---------- 	[[   MyImg2Num   ]]	 ---------- ########## 
+########## ---------- 	[[   Img2Num   ]]	 ---------- ########## 
 
-Train Iteration: 1	[60000/60000 (100%)]		Loss: 0.053507
-Iteration: 1 	Training error: 0.290 	Accuracy: 91.32 % 	Validation Error: 0.326 	Training time: 7.862 sec
+Train Epoch: 1	[60000/60000 (100%)]		Loss: 0.032771
+Training error: 0.064 	Accuracy: 89.49 % 	Validation Error: 0.032 	Training time: 22.156 sec
 
-Train Iteration: 2	[60000/60000 (100%)]		Loss: 0.041670
-Iteration: 2 	Training error: 0.046 	Accuracy: 94.85 % 	Validation Error: 0.202 	Training time: 7.867 sec
+Train Epoch: 2	[60000/60000 (100%)]		Loss: 0.019410
+Training error: 0.024 	Accuracy: 93.96 % 	Validation Error: 0.017 	Training time: 30.245 sec
 
 ........
 
-Train Iteration: 49	[60000/60000 (100%)]		Loss: 0.000000
-Iteration: 49 	Training error: 0.000 	Accuracy: 98.47 % 	Validation Error: 0.069 	Training time: 8.021 sec
+Train Epoch: 49	[60000/60000 (100%)]		Loss: 0.004314
+Training error: 0.002 	Accuracy: 98.93 % 	Validation Error: 0.003 	Training time: 19.853 sec
 
-Train Iteration: 50	[60000/60000 (100%)]		Loss: 0.000000
-Iteration: 50 	Training error: 0.000 	Accuracy: 98.48 % 	Validation Error: 0.069 	Training time: 8.063 sec
+Train Epoch: 50	[60000/60000 (100%)]		Loss: 0.001863
+Training error: 0.002 	Accuracy: 98.91 % 	Validation Error: 0.003 	Training time: 24.203 sec
 
 
 ########## ---------- 	[[   NnImg2Num   ]]	 ---------- ########## 
 
-Train Iteration: 1	[60000/60000 (100%)]		Loss: 0.089956
-Iteration: 1 	Training error: 0.090 	Accuracy: 10.32 % 	Validation Error: 0.090 	Training time: 13.977 sec
+Train Epoch: 1	[60000/60000 (100%)]		Loss: 0.090459
+Training error: 0.090 	Accuracy: 10.32 % 	Validation Error: 0.090 	Training time: 16.225 sec
 
-Train Iteration: 2	[60000/60000 (100%)]		Loss: 0.077065
-Iteration: 2 	Training error: 0.089 	Accuracy: 24.19 % 	Validation Error: 0.080 	Training time: 13.695 sec
+Train Epoch: 2	[60000/60000 (100%)]		Loss: 0.088952
+Training error: 0.090 	Accuracy: 19.96 % 	Validation Error: 0.088 	Training time: 16.482 sec
 
 ........
 
-Train Iteration: 49	[60000/60000 (100%)]		Loss: 0.000421
-Iteration: 49 	Training error: 0.001 	Accuracy: 97.69 % 	Validation Error: 0.004 	Training time: 14.896 sec
+Train Epoch: 49	[60000/60000 (100%)]		Loss: 0.000079
+Training error: 0.001 	Accuracy: 97.66 % 	Validation Error: 0.004 	Training time: 16.415 sec
 
-Train Iteration: 50	[60000/60000 (100%)]		Loss: 0.003981
-Iteration: 50 	Training error: 0.001 	Accuracy: 97.72 % 	Validation Error: 0.004 	Training time: 15.581 sec
+Train Epoch: 50	[60000/60000 (100%)]		Loss: 0.000176
+Training error: 0.001 	Accuracy: 97.67 % 	Validation Error: 0.004 	Training time: 20.947 sec
+
 ```
 
-The full list of the output is give in the following file ([training_status_of_MyImg2Num_NnImg2Num.txt](https://github.com/abhanjac/BME-595A-Deep-Learning-Course/blob/master/abhanjac_HW04/training_status_of_MyImg2Num_NnImg2Num.txt)).
+The full list of the output is give in the following file ([training_status_of_Img2Num_NnImg2Num.txt](https://github.com/abhanjac/BME-595A-Deep-Learning-Course/blob/master/abhanjac_HW05/training_status_of_img2num_NnImg2Num.txt)).
 
 #### Comparison between the MyImg2Num and NnImg2Num neural networks:
 (**Note:** Both the networks are trained for the same number or iterations and have identical structures.)
