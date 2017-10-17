@@ -9,7 +9,7 @@ Our project aims to perform *object detection* of a real time video stream. We p
 
 ## Goals
 * Analyze different available deep neural network architectures and propose a network architecture to perform object detection on images from the VOC2012 dataset.
-* Perfom real time object detection in a live video stream.
+* Perform real time object detection in a live video stream.
 * Analyze accuracy vs speed of detection and optimize the network for real time detection.
 * Compare proposed network performance with that of existing architectures.
 
