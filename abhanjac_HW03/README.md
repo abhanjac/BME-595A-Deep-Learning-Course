@@ -38,13 +38,6 @@ Xor(True, True):	 False 	;	Xor(False, True):	 True 	;	Xor(True, False):	 True 	;
 ||            || Column Header One || Column Header Two || Column Header Three ||
 ||-----------:||:------------------||:-----------------:||--------------------:||
 ||Row Hdr 1   ||Left Aligned||Centre Aligned||Right Aligned||
-||Row Hdr 2   |>|colspan the next cell                  ||Row 2, Col 3         ||
-||Row Hdr 3   |>>|colspan the next two cells                                   ||
-||Row Hdr 4   |v|rowspan the next cell down||           || Column 3            ||
-||Row Hdr 5   ||                   || Column 2          || Column 3            ||
-||Row Hdr 6   |vv|merge down 2     |>| Merge right                             ||
-||Row Hdr 7   ||                   || Column 2         :||: Column 3           ||
-||Row Hdr 8   ||                   || Column 2         :||: Column 3           ||
 
 | Hw2 | Hw3 |
 |:---:|:---:|
