@@ -49,7 +49,7 @@ Xor(True, True):	 False 	;	Xor(False, True):	 True 	;	Xor(True, False):	 True 	;
 
 **NOT gate Theta 1**
 
-|Theta 1|Bias|Node 1|Node 2|
+|Theta 1|Bias|Node 1|
 |:---:|:---:|:---:|
 |HW2|100|-200|
 |HW3|6.0337|-12.4738|
