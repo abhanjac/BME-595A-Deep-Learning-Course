@@ -35,12 +35,12 @@ python3 test.py --model </dir/containing/model/>
 
 | Model attributes | Modified ALexNet |
 |:---:|:---:|
-| **Training error (after 4 iterations)** | 5.001 |
-| **Validation error (after 4 iterations)** | 4.912 |
+| **Training error (after 4 iterations)** | 5.000 |
+| **Validation error (after 4 iterations)** | 4.905 |
 | **Training Accuracy (%) (after 1 iterations)** | 27.61 |
 | **Validation Accuracy (%) (after 1 iterations)** | 37.10 |
-| **Training Accuracy (%) (after 4 iterations)** | 30.86 |
-| **Validation Accuracy (%) (after 4 iterations)** | 39.81 |
+| **Training Accuracy (%) (after 4 iterations)** | 30.89 |
+| **Validation Accuracy (%) (after 4 iterations)** | 40.31 |
 | **Learning rate (eta)** | 0.001 |
 
 #### Actual outputs of the status of training in the terminal:
@@ -59,6 +59,9 @@ Training error: 5.014   Training Accuracy: 29.48 %  Validation Error: 4.920     
 
 Train Epoch: 4  [100000/100000 (100%)]      Loss: 5.006993
 Training error: 5.001   Training Accuracy: 30.86 %  Validation Error: 4.912     Validation Accuracy: 39.81 %    Training time for current epoch: 27082.757 sec
+
+Train Epoch: 5	[100000/100000 (100%)]  	Loss: 4.971263
+Training error: 5.000 	Training Accuracy: 30.89 % 	Validation Error: 4.905 	Validation Accuracy: 40.31 % 	Training time for current epoch: 32015.660 sec
 
 ```
 The name of this output file is [output_on_terminal.txt](https://github.com/abhanjac/BME-595A-Deep-Learning-Course/blob/master/abhanjac_HW06/output_on_terminal.txt).
