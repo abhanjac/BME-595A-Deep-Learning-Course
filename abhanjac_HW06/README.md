@@ -22,28 +22,52 @@ The **train.py** script can be run using the following command:
 ```
 python3 train.py --data </tiny/imagenet/dir/> --save </dir/to/save/model/>
 ```
-</tiny/imagenet/dir/> is the directory in which the Tiny ImageNet dataset is present (in unzipped format).
-</dir/to/save/model/> is the directory in which the trained model is saved.
+`</tiny/imagenet/dir/>` is the directory in which the Tiny ImageNet dataset is present (in unzipped format).
+`</dir/to/save/model/>` is the directory in which the trained model is saved.
 
 The **test.py** script can be run using the following command:
 ```
 python3 test.py --model </dir/containing/model/>
 ```
-</dir/containing/model/> is the directory from which the trained model is loaded. This is generally the same directory in which the model was previously stored.
+`</dir/containing/model/>` is the directory from which the trained model is loaded. This is generally the same directory in which the model was previously stored.
 
 #### Results on Tiny ImageNet Dataset:
 
 | Model attributes | Modified ALexNet |
 |:---:|:---:|
-| **Training error (after 10 iterations)** | 0.002 |
-| **Validation error (after 10 iterations)** | 0.003 |
-| **Accuracy (%) (after 1 iterations)** | 33.44 |
-| **Accuracy (%) (after 10 iterations)** | 33.44 |
+| **Training error (after 4 iterations)** | 5.001 |
+| **Validation error (after 4 iterations)** | 4.912 |
+| **Training Accuracy (%) (after 1 iterations)** | 27.61 |
+| **Validation Accuracy (%) (after 1 iterations)** | 37.10 |
+| **Training Accuracy (%) (after 4 iterations)** | 30.86 |
+| **Validation Accuracy (%) (after 4 iterations)** | 39.81 |
 | **Learning rate (eta)** | 0.001 |
+
+#### Actual outputs of the status of training in the terminal:
+```
+ ########## ----------  [[   main: AlexNet   ]]  ---------- ########## 
+
+
+Train Epoch: 1  [100000/100000 (100%)]      Loss: 5.039676
+Training error: 5.035   Training Accuracy: 27.61 %  Validation Error: 4.939     Validation Accuracy: 37.10 %    Training time for current epoch: 5423.576 sec
+
+Train Epoch: 2  [100000/100000 (100%)]      Loss: 4.996717
+Training error: 5.024   Training Accuracy: 28.54 %  Validation Error: 4.925     Validation Accuracy: 38.43 %    Training time for current epoch: 11125.444 sec
+
+Train Epoch: 3  [100000/100000 (100%)]      Loss: 5.003526
+Training error: 5.014   Training Accuracy: 29.48 %  Validation Error: 4.920     Validation Accuracy: 38.87 %    Training time for current epoch: 16748.171 sec
+
+Train Epoch: 4  [100000/100000 (100%)]      Loss: 5.006993
+Training error: 5.001   Training Accuracy: 30.86 %  Validation Error: 4.912     Validation Accuracy: 39.81 %    Training time for current epoch: 27082.757 sec
+
+```
+The name of this output file is [output_on_terminal.txt](https://github.com/abhanjac/BME-595A-Deep-Learning-Course/blob/master/abhanjac_HW06/output_on_terminal.txt).
 
 #### Comments and Observations:
 * Even though the model is pretrained, it takes a huge amount of time to train the last layer of the model on a laptop with CPU. 1 training epoch takes about 1 hour to complete.
-* This is why we have not used more than 10 epochs.
+* This is why we have not used more than 4 epochs. However the error seem to have a steady decreasing trend and the accuracy is also increasing with the iterations. Which indicates that the algorithm is getting trained.
+
 
 ##### Working of the cam function after AlexNet has been trained on Tiny ImageNet dataset:
 ![cam_function_output_cropped.png](https://github.com/abhanjac/BME-595A-Deep-Learning-Course/blob/master/abhanjac_HW06/cam_function_output_cropped.png)
+
