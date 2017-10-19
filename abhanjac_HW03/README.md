@@ -20,6 +20,7 @@ $ python3 test.py
 (**NOTE:** This might take some time to generate the output.)
 
 #### Results:
+```
 The results obtained by running the **test.py** script is the following (output in the terminal):
 
 And(True, True):	 True 	;	And(False, True):	 False 	;	And(True, False):	 False 	;	And(False, False):	 False
@@ -29,37 +30,37 @@ Or(True, True):		 True 	;	Or(False, True):	 True 	;	Or(True, False):	 True 	;	Or
 Not(True):			 False 	;	Not(False):			 True
 
 Xor(True, True):	 False 	;	Xor(False, True):	 True 	;	Xor(True, False):	 True 	;	Xor(False, False):	 False
+```
 
 #### Theta comparisons between homework 2 and homework 3:
-And gate Theta 1
-- Hw2            
-- -25.3251       
--  17.2339       
--  17.4892
-- Hw3
-- -200
-- 100
-- 100
+**AND gate Theta 1**
+|AND gate Theta 1||
+| Hw2 | Hw3 |
+|:---:|:---:|
+|-25.3251|-200|
+|17.2339|100|
+|17.4892|100|
 
-Or gate Theta 1
-- Hw2            
-- -5.9833       
-- 13.2808       
-- 12.6420       
-- Hw3
-- -100
-- 200
-- 200
+**OR gate Theta 1**
+| Hw2 | Hw3 |
+|:---:|:---:|
+|-5.9833|-100|
+|13.2808|200|
+|12.6420|200|
 
-Not gate Theta 1
-- Hw2
--  6.0337      
-- -12.4738     
-- Hw3
-- 100
-- -200
+**NOT gate Theta 1**
+| Hw2 | Hw3 |
+|:---:|:---:|
+|6.0337|100|
+|-12.4738|-200|
 
-Xor gate Theta 1
+**EXOR gate Theta 1**
+| Hw2 | Hw3 |
+|:---:|:---:|
+|-5.9833|-100|
+|13.2808|200|
+|12.6420|200|
+
 - Hw2                   
 - -4.1688, -11.1120     
 -  8.8897,   7.2943     
