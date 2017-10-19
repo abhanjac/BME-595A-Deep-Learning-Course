@@ -10,6 +10,7 @@ PyCharm IDE.
 #### Overview of the code:
 The objective of this assignment is to use the already trained **AlexNet** ([AlexNet](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)) convolution neural network and use it as a pretrained model to train a network to identify the images of the **Tiny ImageNet** dataset [Tiny ImageNet](https://tiny-imagenet.herokuapp.com/). Tiny Imagenet has **200** classes. Each class has **500** training images, **50** validation images, and **50** test images. Each of these images are **64x64** pixels in size.
 The only difference between this model and the original AlexNet is that our model has only **200** nodes in the final layer instead of the **4096** nodes in the original AlexNet.
+However, since AlexNet only accepts **224x224** images as inputs, so while creating the training and validation datasets, the 64x64 images of the Tiny ImageNet dataset are stretched and resized to 224x224 before feeding into the network.
 There are two separate python scripts **train.py** and **test.py** for training and testing the code.
 The train.py script copies all the pretrained layers from the AlexNet model except the final layer and then creates a train and validation loader of the images from the Tiny Imagenet dataset (downloaded) and used those to train the final layer of out network. The final trained model is saved by this script in a given location (may be the current directory).
 The test.py script loads the model from that location.
