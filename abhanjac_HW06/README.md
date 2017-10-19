@@ -33,7 +33,7 @@ python3 test.py --model </dir/containing/model/>
 #### Results on MNIST:
 
 | Model attributes | Modified ALexNet |
-|---|---|
+|:---:|:---:|
 | **Training error (after 10 iterations)** | 0.002 |
 | **Validation error (after 10 iterations)** | 0.003 |
 | **Accuracy (%) (after 1 iterations)** | 33.44 |
