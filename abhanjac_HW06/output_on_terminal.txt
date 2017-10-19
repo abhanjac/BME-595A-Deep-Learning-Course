@@ -13,4 +13,6 @@ Training error: 5.014   Training Accuracy: 29.48 %  Validation Error: 4.920     
 Train Epoch: 4  [100000/100000 (100%)]      Loss: 5.006993
 Training error: 5.001   Training Accuracy: 30.86 %  Validation Error: 4.912     Validation Accuracy: 39.81 %    Training time for current epoch: 27082.757 sec
 
+Train Epoch: 5  [100000/100000 (100%)]      Loss: 4.971263
+Training error: 5.000   Training Accuracy: 30.89 %  Validation Error: 4.905     Validation Accuracy: 40.31 %    Training time for current epoch: 32015.660 sec
 
