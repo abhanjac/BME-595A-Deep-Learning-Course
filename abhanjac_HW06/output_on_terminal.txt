@@ -1,0 +1,16 @@
+ ########## ----------  [[   main: AlexNet   ]]  ---------- ########## 
+
+
+Train Epoch: 1  [100000/100000 (100%)]      Loss: 5.039676
+Training error: 5.035   Training Accuracy: 27.61 %  Validation Error: 4.939     Validation Accuracy: 37.10 %    Training time for current epoch: 5423.576 sec
+
+Train Epoch: 2  [100000/100000 (100%)]      Loss: 4.996717
+Training error: 5.024   Training Accuracy: 28.54 %  Validation Error: 4.925     Validation Accuracy: 38.43 %    Training time for current epoch: 11125.444 sec
+
+Train Epoch: 3  [100000/100000 (100%)]      Loss: 5.003526
+Training error: 5.014   Training Accuracy: 29.48 %  Validation Error: 4.920     Validation Accuracy: 38.87 %    Training time for current epoch: 16748.171 sec
+
+Train Epoch: 4  [100000/100000 (100%)]      Loss: 5.006993
+Training error: 5.001   Training Accuracy: 30.86 %  Validation Error: 4.912     Validation Accuracy: 39.81 %    Training time for current epoch: 27082.757 sec
+
+
