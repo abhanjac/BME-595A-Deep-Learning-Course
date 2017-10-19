@@ -30,7 +30,7 @@ python3 test.py --model </dir/containing/model/>
 ```
 </dir/containing/model/> is the directory from which the trained model is loaded. This is generally the same directory in which the model was previously stored.
 
-#### Results on MNIST:
+#### Results on Tiny ImageNet Dataset:
 
 | Model attributes | Modified ALexNet |
 |:---:|:---:|
