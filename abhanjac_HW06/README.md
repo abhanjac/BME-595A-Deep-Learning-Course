@@ -36,7 +36,8 @@ python3 test.py --model </dir/containing/model/>
 |---|---|
 | **Training error (after 10 iterations)** | 0.002 |
 | **Validation error (after 10 iterations)** | 0.003 |
-| **Accuracy (%) (after 10 iterations)** | 97.82 |
+| **Accuracy (%) (after 1 iterations)** | 33.44 |
+| **Accuracy (%) (after 10 iterations)** | 33.44 |
 | **Learning rate (eta)** | 0.001 |
 
 #### Comments and Observations:
