@@ -35,13 +35,9 @@ Xor(True, True):	 False 	;	Xor(False, True):	 True 	;	Xor(True, False):	 True 	;
 #### Theta comparisons between homework 2 and homework 3:
 **AND gate Theta 1**
 
-||            || Column Header One || Column Header Two || Column Header Three ||
-||-----------:||:------------------||:-----------------:||--------------------:||
-||Row Hdr 1   ||Left Aligned||Centre Aligned||Right Aligned||
-
 | Hw2 | Hw3 |
 |:---:|:---:|
-|-25.3251|-200|
+|-25.3251
 |17.2339|100|
 |17.4892|100|
 
