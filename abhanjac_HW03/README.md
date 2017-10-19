@@ -36,8 +36,8 @@ Xor(True, True):	 False 	;	Xor(False, True):	 True 	;	Xor(True, False):	 True 	;
 **AND gate Theta 1**
 
 |AND gate Theta 1||
-| Hw2 | Hw3 |
 |:---:|:---:|
+| Hw2 | Hw3 |
 |-25.3251|-200|
 |17.2339|100|
 |17.4892|100|
