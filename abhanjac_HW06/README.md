@@ -45,3 +45,5 @@ python3 test.py --model </dir/containing/model/>
 * Even though the model is pretrained, it takes a huge amount of time to train the last layer of the model on a laptop with CPU. 1 training epoch takes about 1 hour to complete.
 * This is why we have not used more than 10 epochs.
 
+##### Working of the cam function after AlexNet has been trained on Tiny ImageNet dataset:
+![cam_function_output_cropped.png](https://github.com/abhanjac/BME-595A-Deep-Learning-Course/blob/master/abhanjac_HW06/cam_function_output_cropped.png)
