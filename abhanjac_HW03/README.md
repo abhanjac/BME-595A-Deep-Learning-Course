@@ -35,26 +35,32 @@ Xor(True, True):	 False 	;	Xor(False, True):	 True 	;	Xor(True, False):	 True 	;
 #### Theta comparisons between homework 2 and homework 3:
 **AND gate**
 
-|Theta 1|Bias|Node 1|Node 2|
+|Layer 1|Bias|Node 1|Node 2|
 |:---:|:---:|:---:|:---:|
 |HW2|-200|100|100|
 |HW3|-25.3251|17.2339|17.4892|
 
 **OR gate**
 
-|Theta 1|Bias|Node 1|Node 2|
+|Layer 1|Bias|Node 1|Node 2|
 |:---:|:---:|:---:|:---:|
 |HW2|-100|200|200|
 |HW3|-5.9833|13.2808|12.6420|
 
 **NOT gate**
 
-|Theta 1|Bias|Node 1|
+|Layer 1|Bias|Node 1|
 |:---:|:---:|:---:|
 |HW2|100|-200|
 |HW3|6.0337|-12.4738|
 
 **EXOR gate Theta 1**
+
+|Layer 1|Bias|Node 1|Node 2|
+|:---:|:---:|:---:|:---:|
+|HW2|-100|200|200|
+|HW3|-5.9833|13.2808|12.6420|
+
 
 - Hw2                   
 - -4.1688, -11.1120     
@@ -66,6 +72,11 @@ Xor(True, True):	 False 	;	Xor(False, True):	 True 	;	Xor(True, False):	 True 	;
 - 200, -200
 
 **EXOR gate Theta 2**
+
+|Layer 2|Bias|Node 1|Node 2|
+|:---:|:---:|:---:|:---:|
+|HW2|-100|200|200|
+|HW3|-9.5047|19.7033|20.3830|
 
 - Hw2             
 - -9.5047       
