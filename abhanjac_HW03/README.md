@@ -35,9 +35,14 @@ Xor(True, True):	 False 	;	Xor(False, True):	 True 	;	Xor(True, False):	 True 	;
 #### Theta comparisons between homework 2 and homework 3:
 **AND gate Theta 1**
 
+|Theta 1|Bias|Node 1|Node 2|
+|:---:|:---:|:---:|:---:|
+|HW2|-200|100|100|
+|HW3|-25.3251|17.2339|17.4892|
+
 | Hw2 | Hw3 |
-|:---:|:---:
-|-25.3251
+|:---:|:---:|
+|-25.3251|-200|
 |17.2339|100|
 |17.4892|100|
 
