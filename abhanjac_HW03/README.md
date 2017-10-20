@@ -49,7 +49,7 @@ Xor(True, True):	 False 	;	Xor(False, True):	 True 	;	Xor(True, False):	 True 	;
 
 **NOT gate**
 
-|Layer 1|theta_0 (Bias)|theta_1|theta_2|
+|Layer 1|theta_0 (Bias)|theta_1|
 |:---:|:---:|:---:|
 |HW2|100|-200|
 |HW3|2.9217|-6.2704|
