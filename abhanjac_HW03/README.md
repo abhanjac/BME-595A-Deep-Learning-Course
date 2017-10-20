@@ -35,57 +35,37 @@ Xor(True, True):	 False 	;	Xor(False, True):	 True 	;	Xor(True, False):	 True 	;
 #### Theta comparisons between homework 2 and homework 3:
 **AND gate**
 
-|Layer 1|Bias|Node 1|Node 2|
+|Layer 1|theta_0 (Bias)|theta_1|theta_2|
 |:---:|:---:|:---:|:---:|
 |HW2|-200|100|100|
-|HW3|-25.3251|17.2339|17.4892|
+|HW3|-8.8583|5.7866|5.7866|
 
 **OR gate**
 
-|Layer 1|Bias|Node 1|Node 2|
+|Layer 1|theta_0 (Bias)|theta_1|theta_2|
 |:---:|:---:|:---:|:---:|
 |HW2|-100|200|200|
-|HW3|-5.9833|13.2808|12.6420|
+|HW3|-2.4996|5.9710|5.9715|
 
 **NOT gate**
 
-|Layer 1|Bias|Node 1|
+|Layer 1|theta_0 (Bias)|theta_1|theta_2|
 |:---:|:---:|:---:|
 |HW2|100|-200|
-|HW3|6.0337|-12.4738|
+|HW3|2.9217|-6.2704|
 
-**EXOR gate Theta 1**
+**EXOR gate**
 
-|Layer 1|Bias|Node 1|Node 2|
+|Layer 1|theta_01 (Bias)|theta_11|theta_12|theta_02 (Bias)|theta_21|theta_22|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|HW2|100|200|-200|100|-200|200|
+|HW3|2.7942|5.9668|-5.6038|3.3364|-6.4733|6.5667|
+
+|Layer 2|theta_0 (Bias)|theta_1|theta_2|
 |:---:|:---:|:---:|:---:|
-|HW2|-100|200|200|
-|HW3|-5.9833|13.2808|12.6420|
+|HW2|200|-100|-100|
+|HW3|10.4493|-7.1893|-7.1190|
 
-
-- Hw2                   
-- -4.1688, -11.1120     
--  8.8897,   7.2943     
--  8.8911,   7.2946     
-- Hw3
-- -100, -100
-- -200, 200
-- 200, -200
-
-**EXOR gate Theta 2**
-
-|Layer 2|Bias|Node 1|Node 2|
-|:---:|:---:|:---:|:---:|
-|HW2|-100|200|200|
-|HW3|-9.5047|19.7033|20.3830|
-
-- Hw2             
-- -9.5047       
-- 19.7033       
-- -20.3830      
-- Hw3
-- -100
-- 200
-- 200
 
 #### Comments and Observations:
 * Typically **100** iterations with a learning rate of **eta = 10** is sufficient for training the **And**, **Or** and **Not** gates since they do not have any hidden layers. But the **Xor** gate object takes a long time to train comparatively.
