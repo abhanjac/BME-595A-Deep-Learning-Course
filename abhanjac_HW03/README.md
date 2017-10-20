@@ -21,15 +21,49 @@ $ python3 test.py
 
 #### Results:
 ```
-The results obtained by running the **test.py** script is the following (output in the terminal):
+Layer 1: 
+-8.8583  5.7866  5.7866
+[torch.FloatTensor of size 1x3]
 
-And(True, True):	 True 	;	And(False, True):	 False 	;	And(True, False):	 False 	;	And(False, False):	 False
+Number of iterations: 110 
+Final Error: 0.000989 
 
-Or(True, True):		 True 	;	Or(False, True):	 True 	;	Or(True, False):	 True 	;	Or(False, False):	 False
+And(True, True):	 True 	;	And(False, True):	 False 	;	And(True, False):	 False 	;	And(False, False):	 False 
 
-Not(True):			 False 	;	Not(False):			 True
 
-Xor(True, True):	 False 	;	Xor(False, True):	 True 	;	Xor(True, False):	 True 	;	Xor(False, False):	 False
+Layer 1: 
+-2.4996  5.9710  5.9715
+[torch.FloatTensor of size 1x3]
+
+Number of iterations: 68 
+Final Error: 0.000974 
+
+Or(True, True):		 True 	;	Or(False, True):	 True 	;	Or(True, False):	 True 	;	Or(False, False):	 False 
+
+
+Layer 1: 
+ 2.9217 -6.2704
+[torch.FloatTensor of size 1x2]
+
+Number of iterations: 64 
+Final Error: 0.000972 
+
+Not(True):			 False 	;	Not(False):			 True 
+
+
+Layer 1: 
+ 2.7942  5.9668 -5.6038
+ 3.3364 -6.4733  6.5667
+[torch.FloatTensor of size 2x3]
+
+Layer 2: 
+ 10.4493  -7.1893  -7.1190
+[torch.FloatTensor of size 1x3]
+
+Number of iterations: 184 
+Final Error: 0.000982 
+
+Xor(True, True):	 False 	;	Xor(False, True):	 True 	;	Xor(True, False):	 True 	;	Xor(False, False):	 False 
 ```
 
 #### Theta comparisons between homework 2 and homework 3:
@@ -54,7 +88,7 @@ Xor(True, True):	 False 	;	Xor(False, True):	 True 	;	Xor(True, False):	 True 	;
 |HW2|100|-200|
 |HW3|2.9217|-6.2704|
 
-**EXOR gate**
+**XOR gate**
 
 |Layer 1|theta_01 (Bias)|theta_11|theta_12|theta_02 (Bias)|theta_21|theta_22|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -68,8 +102,8 @@ Xor(True, True):	 False 	;	Xor(False, True):	 True 	;	Xor(True, False):	 True 	;
 
 
 #### Comments and Observations:
-* Typically **100** iterations with a learning rate of **eta = 10** is sufficient for training the **And**, **Or** and **Not** gates since they do not have any hidden layers. But the **Xor** gate object takes a long time to train comparatively.
-It takes about **30000** iterations to train it.
+* The network is trained till the mean square error becomes less than **0.001**. This takes about **110**, **68**, **64** and **184** iterations for the **AND**, **OR**, **NOT** and **XOR** gates.
+* Similar to HW2, here also the XOR gate takes the most iterations to train.
 * As the number of iterations increases, the variations in the value of the **theta** parameters decreases and their values become more stable. 
 * Lower the value of the **eta** parameter however slows down the learning process. More iterations are needed to learn with a lower **eta** value.
 * The more the number of hidden layers and more the number of nodes in the network, the more time it takes to train the network.
