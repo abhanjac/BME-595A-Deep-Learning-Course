@@ -92,8 +92,8 @@ Xor(True, True):	 False 	;	Xor(False, True):	 True 	;	Xor(True, False):	 True 	;
 
 |Layer 1|theta_01 (Bias)|theta_11|theta_12|theta_02 (Bias)|theta_21|theta_22|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|HW2|100|200|-200|100|-200|200|
-|HW3|2.7942|5.9668|-5.6038|3.3364|-6.4733|6.5667|
+|HW2|100|-200|200|100|200|-200|
+|HW3|2.5695|-5.2481|5.6784|4.2724|7.7363|-7.9836|
 
 |Layer 2|theta_0 (Bias)|theta_1|theta_2|
 |:---:|:---:|:---:|:---:|
@@ -104,6 +104,7 @@ Xor(True, True):	 False 	;	Xor(False, True):	 True 	;	Xor(True, False):	 True 	;
 #### Comments and Observations:
 * The network is trained till the mean square error becomes less than **0.001**. This takes about **110**, **68**, **64** and **184** iterations for the **AND**, **OR**, **NOT** and **XOR** gates.
 * Similar to HW2, here also the XOR gate takes the most iterations to train.
+* The values of the parameters shown above are for one particular test run. They are different each time the network is trained again from scratch. But the over all magnitude of the values stay in more or less the same range.
 * As the number of iterations increases, the variations in the value of the **theta** parameters decreases and their values become more stable. 
 * Lower the value of the **eta** parameter however slows down the learning process. More iterations are needed to learn with a lower **eta** value.
 * The more the number of hidden layers and more the number of nodes in the network, the more time it takes to train the network.
